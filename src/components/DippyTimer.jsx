@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import bgVideo from '../assets/DippyBg.mp4'
+import bgVideo from '../assets/DippyBG.mp4'
 
 const DippyTimer = () => {
   const initialTime = 3 * 60
