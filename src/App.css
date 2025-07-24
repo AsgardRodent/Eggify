@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background: url("./assets/MainBg.png");
+}
+
+.font-pixel {
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}

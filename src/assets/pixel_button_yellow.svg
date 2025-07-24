@@ -1,0 +1,17 @@
+<svg width="180" height="60" viewBox="0 0 180 60" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+  <!-- Shadow base -->
+  <rect x="4" y="4" width="172" height="52" fill="#553344" />
+
+  <!-- Button outline -->
+  <path d="M0 12 L0 48 L12 60 L168 60 L180 48 L180 12 L168 0 L12 0 Z" fill="#7c4f00"/>
+
+  <!-- Main fill -->
+  <path d="M4 16 L4 44 L16 56 L164 56 L176 44 L176 16 L164 4 L16 4 Z" fill="#f6c200"/>
+
+  <!-- Gloss highlight -->
+  <path d="M16 4 H164 L176 16 H160 L16 16 Z" fill="#ffe871"/>
+
+  <!-- Shine corner -->
+  <rect x="20" y="8" width="8" height="8" fill="white"/>
+  <rect x="24" y="12" width="4" height="4" fill="#ffe871"/>
+</svg>
