@@ -1,48 +1,56 @@
-# 🥚 Eggify - Boil Eggs Like a Pro!
+# 🥚 Egg Timer
 
-Eggify is a playful and pixel-styled timer app for perfectly boiling eggs!  
-Choose your egg style (Dippy, Runny, Soft-Boiled, or Hard-Boiled) and let the timers + animations guide your breakfast to perfection.
-
-![Eggify Banner](./src/assets/RelaxedEgg.png)
+A playful and responsive timer app built with React + TailwindCSS, designed for perfectly timed Dippy Eggs, Soft-Boiled, Runny Yolks, and Hard-Boiled Eggs. Each timer has a retro-themed video background and clean UI for an enjoyable egg-boiling experience.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- 🍳 **4 Unique Timers** – Dippy, Runny, Soft-Boiled, Hard-Boiled
-- 🎞️ **Animated Backgrounds** – Immersive looping videos for each egg type
-- 🎨 **Pixel UI** – Retro-style fonts, button sprites, and UI details
-- 📱 **Fully Responsive** – Works great on mobile and desktop
-- 🌙 **Relaxed Mode** – Minimal design to keep mornings stress-free
+👉 [Visit the deployed site on Netlify](https://eggify.netlify.app/)
 
 ---
 
-## 📸 Screenshots
+## 🖼️ Preview
 
-| Egg Menu | Dippy Timer | Hard-Boiled |
-|---------|--------------|--------------|
-| ![menu](./src/assets/menu_preview.png) | ![dippy](./src/assets/DippyEggPreview.png) | ![hard](./src/assets/HardEggPreview.png) |
-
----
-
-## 🧰 Built With
-
-- **React + Vite**
-- **Tailwind CSS**
-- **Framer Motion**
-- **HTML5 Video**
+<img src="src/assets/menu_preview.png" width="300"/>
+<img src="src/assets/DippyEggPreview.png" width="300"/>
+<img src="src/assets/HardEggPreview.png" width="300"/>
 
 ---
 
-## 🛠️ Setup
+## ⚙️ Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** TailwindCSS
+- **Animations (Upcoming):** Framer Motion / GSAP
+- **Hosting:** Netlify
+
+---
+
+## 🍳 Features
+
+- ⏱ Four individual timers (3, 6, 8, 12 minutes)
+- 🎞 Background video per egg type
+- ✅ Responsive layout with clamp-based sizing
+- 🧼 Clean, minimal UI with feedback on completion
+- 🟡 Pixel-style aesthetic with custom assets
+
+---
+
+## 📌 Future Improvements
+
+- [ ] 🌀 Add animations with **GSAP** or **Framer Motion** for button hover, entry, and transition states
+- [ ] 🔤 Add **retro pixel fonts** for countdown and buttons
+- [ ] 📢 Add **audio feedback** or alert when timer ends
+- [ ] 🎛 Introduce **custom timer** settings
+- [ ] 🥚 Save user’s last egg preference (localStorage)
+
+---
+
+## 🛠️ Setup Instructions
 
 ```bash
-# Clone the repo
-git clone https://github.com/yourusername/Eggify.git
+git clone https://github.com/AsgardRodent/Eggify.git
 cd Eggify
-
-# Install dependencies
 npm install
-
-# Start the dev server
 npm run dev
